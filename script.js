@@ -37,7 +37,6 @@ function addItem(e){
 
     const delete_item=document.createElement('button');
     delete_item.classList.add('delete','btn','btn-danger','fa','fa-trash');
-    
     item_action.appendChild(edit_item);
     item_action.appendChild(delete_item);
 
